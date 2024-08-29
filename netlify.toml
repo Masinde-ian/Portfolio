@@ -1,0 +1,4 @@
+[build]
+  functions = "hello.js"  # Directory where your Netlify functions are located
+  publish = "pages"  # Directory to publish your static files, if applicable
+  command = "npm run build"
